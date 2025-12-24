@@ -1,0 +1,134 @@
+[INFO] Connected new brain: AmyImitation?team=0
+[INFO] Hyperparameters for behavior name AmyImitation: 
+  trainer_type:  ppo
+  hyperparameters:  
+    batch_size:  128
+    buffer_size:  2048
+    learning_rate:  0.0003
+    beta:  0.0005
+    epsilon:  0.2
+    lambd:  0.95
+    num_epoch:  3
+    shared_critic:  False
+    learning_rate_schedule:  constant
+    beta_schedule:  constant
+    epsilon_schedule:  constant
+  network_settings:  
+    normalize:  True
+    hidden_units:  128
+    num_layers:  2
+    vis_encode_type:  simple
+    memory:  None
+    goal_conditioning_type:  hyper
+    deterministic:  False
+  reward_signals:  
+    extrinsic:  
+      gamma:  0.99
+      strength:  1.0
+      network_settings:  
+        normalize:  False
+        hidden_units:  128
+        num_layers:  2
+        vis_encode_type:  simple
+        memory:  None
+        goal_conditioning_type:  hyper
+        deterministic:  False
+  init_path:  None
+  keep_checkpoints:  100
+  checkpoint_interval:  50000
+  max_steps:  1000000
+  time_horizon:  64
+  summary_freq:  15000
+  threaded:  True
+  self_play:  None
+  behavioral_cloning:  None
+[INFO] AmyImitation. Step: 15000. Time Elapsed: 110.876 s. Mean Reward: 13.860. Std of Reward: 22.763. Training.
+[INFO] AmyImitation. Step: 30000. Time Elapsed: 211.340 s. Mean Reward: 44.513. Std of Reward: 59.337. Training.
+[INFO] AmyImitation. Step: 45000. Time Elapsed: 309.999 s. Mean Reward: 92.359. Std of Reward: 122.109. Training.
+[INFO] Exported results/exp24/AmyImitation/AmyImitation-49975.onnx
+[INFO] AmyImitation. Step: 60000. Time Elapsed: 409.747 s. Mean Reward: 210.638. Std of Reward: 187.671. Training.
+[INFO] AmyImitation. Step: 75000. Time Elapsed: 512.254 s. Mean Reward: 266.234. Std of Reward: 210.858. Training.
+[INFO] AmyImitation. Step: 90000. Time Elapsed: 612.400 s. Mean Reward: 368.203. Std of Reward: 347.647. Training.
+[INFO] Exported results/exp24/AmyImitation/AmyImitation-99964.onnx
+[INFO] AmyImitation. Step: 105000. Time Elapsed: 712.951 s. Mean Reward: 382.879. Std of Reward: 231.216. Training.
+[INFO] AmyImitation. Step: 120000. Time Elapsed: 812.142 s. Mean Reward: 430.041. Std of Reward: 258.953. Training.
+[INFO] AmyImitation. Step: 135000. Time Elapsed: 911.409 s. Mean Reward: 390.497. Std of Reward: 275.651. Training.
+[INFO] AmyImitation. Step: 150000. Time Elapsed: 1012.916 s. Mean Reward: 463.939. Std of Reward: 346.036. Training.
+[INFO] Exported results/exp24/AmyImitation/AmyImitation-149954.onnx
+[INFO] AmyImitation. Step: 165000. Time Elapsed: 1113.954 s. Mean Reward: 521.342. Std of Reward: 333.244. Training.
+[INFO] AmyImitation. Step: 180000. Time Elapsed: 1213.319 s. Mean Reward: 424.377. Std of Reward: 243.156. Training.
+[INFO] AmyImitation. Step: 195000. Time Elapsed: 1316.283 s. Mean Reward: 571.157. Std of Reward: 338.659. Training.
+[INFO] Exported results/exp24/AmyImitation/AmyImitation-199945.onnx
+[INFO] AmyImitation. Step: 210000. Time Elapsed: 1416.462 s. Mean Reward: 459.688. Std of Reward: 262.853. Training.
+[INFO] AmyImitation. Step: 225000. Time Elapsed: 1517.407 s. Mean Reward: 623.640. Std of Reward: 484.394. Training.
+[INFO] AmyImitation. Step: 240000. Time Elapsed: 1617.638 s. Mean Reward: 649.171. Std of Reward: 505.217. Training.
+[INFO] Exported results/exp24/AmyImitation/AmyImitation-249974.onnx
+[INFO] AmyImitation. Step: 255000. Time Elapsed: 1718.250 s. Mean Reward: 678.590. Std of Reward: 414.967. Training.
+[INFO] AmyImitation. Step: 270000. Time Elapsed: 1816.348 s. Mean Reward: 752.727. Std of Reward: 476.230. Training.
+[INFO] AmyImitation. Step: 285000. Time Elapsed: 1915.960 s. Mean Reward: 609.333. Std of Reward: 467.406. Training.
+[INFO] AmyImitation. Step: 300000. Time Elapsed: 2014.401 s. Mean Reward: 605.795. Std of Reward: 427.342. Training.
+[INFO] Exported results/exp24/AmyImitation/AmyImitation-299953.onnx
+[INFO] AmyImitation. Step: 315000. Time Elapsed: 2116.667 s. Mean Reward: 682.561. Std of Reward: 421.929. Training.
+[INFO] AmyImitation. Step: 330000. Time Elapsed: 2217.128 s. Mean Reward: 658.546. Std of Reward: 355.104. Training.
+
+[INFO] AmyImitation. Step: 345000. Time Elapsed: 2320.010 s. Mean Reward: 652.107. Std of Reward: 321.003. Training.
+[INFO] Exported results/exp24/AmyImitation/AmyImitation-349974.onnx
+[INFO] AmyImitation. Step: 360000. Time Elapsed: 2417.921 s. Mean Reward: 665.265. Std of Reward: 402.264. Training.
+[INFO] AmyImitation. Step: 375000. Time Elapsed: 2519.200 s. Mean Reward: 652.887. Std of Reward: 306.872. Training.
+[INFO] AmyImitation. Step: 390000. Time Elapsed: 2617.859 s. Mean Reward: 610.140. Std of Reward: 221.127. Training.
+[INFO] Exported results/exp24/AmyImitation/AmyImitation-399985.onnx
+[INFO] AmyImitation. Step: 405000. Time Elapsed: 2715.376 s. Mean Reward: 922.428. Std of Reward: 534.591. Training.
+[INFO] AmyImitation. Step: 420000. Time Elapsed: 2815.171 s. Mean Reward: 756.884. Std of Reward: 443.638. Training.
+[INFO] AmyImitation. Step: 435000. Time Elapsed: 2913.682 s. Mean Reward: 768.784. Std of Reward: 493.233. Training.
+[INFO] AmyImitation. Step: 450000. Time Elapsed: 3014.640 s. Mean Reward: 618.258. Std of Reward: 305.656. Training.
+[INFO] Exported results/exp24/AmyImitation/AmyImitation-449955.onnx
+[INFO] AmyImitation. Step: 465000. Time Elapsed: 3113.198 s. Mean Reward: 530.457. Std of Reward: 240.044. Training.
+[INFO] AmyImitation. Step: 480000. Time Elapsed: 3210.310 s. Mean Reward: 547.452. Std of Reward: 277.806. Training.
+[INFO] AmyImitation. Step: 495000. Time Elapsed: 3311.813 s. Mean Reward: 437.513. Std of Reward: 273.456. Training.
+[INFO] Exported results/exp24/AmyImitation/AmyImitation-499978.onnx
+[INFO] AmyImitation. Step: 510000. Time Elapsed: 3410.942 s. Mean Reward: 598.808. Std of Reward: 293.271. Training.
+[INFO] AmyImitation. Step: 525000. Time Elapsed: 3509.642 s. Mean Reward: 656.975. Std of Reward: 405.010. Training.
+[INFO] AmyImitation. Step: 540000. Time Elapsed: 3608.875 s. Mean Reward: 603.410. Std of Reward: 324.822. Training.
+[INFO] Exported results/exp24/AmyImitation/AmyImitation-549978.onnx
+[INFO] AmyImitation. Step: 555000. Time Elapsed: 3708.901 s. Mean Reward: 612.187. Std of Reward: 285.822. Training.
+[INFO] AmyImitation. Step: 570000. Time Elapsed: 3808.279 s. Mean Reward: 561.258. Std of Reward: 327.616. Training.
+[INFO] AmyImitation. Step: 585000. Time Elapsed: 3909.332 s. Mean Reward: 633.688. Std of Reward: 254.380. Training.
+[INFO] AmyImitation. Step: 600000. Time Elapsed: 4008.714 s. Mean Reward: 570.959. Std of Reward: 257.137. Training.
+[INFO] Exported results/exp24/AmyImitation/AmyImitation-599990.onnx
+[INFO] AmyImitation. Step: 615000. Time Elapsed: 4105.181 s. Mean Reward: 538.235. Std of Reward: 245.844. Training.
+[INFO] AmyImitation. Step: 630000. Time Elapsed: 4205.975 s. Mean Reward: 495.063. Std of Reward: 211.502. Training.
+[INFO] AmyImitation. Step: 645000. Time Elapsed: 4303.470 s. Mean Reward: 545.391. Std of Reward: 269.830. Training.
+[INFO] Exported results/exp24/AmyImitation/AmyImitation-649980.onnx
+[INFO] AmyImitation. Step: 660000. Time Elapsed: 4400.484 s. Mean Reward: 508.633. Std of Reward: 270.796. Training.
+[INFO] AmyImitation. Step: 675000. Time Elapsed: 4502.011 s. Mean Reward: 570.494. Std of Reward: 234.915. Training.
+[INFO] AmyImitation. Step: 690000. Time Elapsed: 4602.040 s. Mean Reward: 492.310. Std of Reward: 153.668. Training.
+[INFO] Exported results/exp24/AmyImitation/AmyImitation-699956.onnx
+[INFO] AmyImitation. Step: 705000. Time Elapsed: 4702.456 s. Mean Reward: 588.321. Std of Reward: 348.768. Training.
+[INFO] AmyImitation. Step: 720000. Time Elapsed: 4803.649 s. Mean Reward: 465.539. Std of Reward: 210.105. Training.
+[INFO] AmyImitation. Step: 735000. Time Elapsed: 4900.929 s. Mean Reward: 490.197. Std of Reward: 206.194. Training.
+[INFO] AmyImitation. Step: 750000. Time Elapsed: 4999.467 s. Mean Reward: 524.372. Std of Reward: 263.033. Training.
+[INFO] Exported results/exp24/AmyImitation/AmyImitation-749999.onnx
+[INFO] AmyImitation. Step: 765000. Time Elapsed: 5096.136 s. Mean Reward: 511.091. Std of Reward: 291.932. Training.
+
+[INFO] AmyImitation. Step: 780000. Time Elapsed: 5196.366 s. Mean Reward: 555.727. Std of Reward: 275.375. Training.
+[INFO] AmyImitation. Step: 795000. Time Elapsed: 5295.536 s. Mean Reward: 496.205. Std of Reward: 195.755. Training.
+[INFO] Exported results/exp24/AmyImitation/AmyImitation-799979.onnx
+[INFO] AmyImitation. Step: 810000. Time Elapsed: 5394.783 s. Mean Reward: 494.663. Std of Reward: 202.339. Training.
+[INFO] AmyImitation. Step: 825000. Time Elapsed: 5491.718 s. Mean Reward: 495.863. Std of Reward: 177.526. Training.
+[INFO] AmyImitation. Step: 840000. Time Elapsed: 5588.951 s. Mean Reward: 565.190. Std of Reward: 245.350. Training.
+[INFO] Exported results/exp24/AmyImitation/AmyImitation-849948.onnx
+[INFO] AmyImitation. Step: 855000. Time Elapsed: 5686.763 s. Mean Reward: 593.154. Std of Reward: 233.343. Training.
+[INFO] AmyImitation. Step: 870000. Time Elapsed: 5789.576 s. Mean Reward: 572.342. Std of Reward: 283.319. Training.
+[INFO] AmyImitation. Step: 885000. Time Elapsed: 5889.029 s. Mean Reward: 484.332. Std of Reward: 198.651. Training.
+[INFO] AmyImitation. Step: 900000. Time Elapsed: 5989.350 s. Mean Reward: 530.783. Std of Reward: 174.480. Training.
+[INFO] Exported results/exp24/AmyImitation/AmyImitation-899981.onnx
+[INFO] AmyImitation. Step: 915000. Time Elapsed: 6090.315 s. Mean Reward: 496.854. Std of Reward: 252.111. Training.
+[INFO] AmyImitation. Step: 930000. Time Elapsed: 6190.268 s. Mean Reward: 399.265. Std of Reward: 187.656. Training.
+[INFO] AmyImitation. Step: 945000. Time Elapsed: 6291.867 s. Mean Reward: 451.659. Std of Reward: 188.882. Training.
+[INFO] Exported results/exp24/AmyImitation/AmyImitation-949973.onnx
+[INFO] AmyImitation. Step: 960000. Time Elapsed: 6390.912 s. Mean Reward: 486.329. Std of Reward: 196.420. Training.
+[INFO] AmyImitation. Step: 975000. Time Elapsed: 6491.979 s. Mean Reward: 404.139. Std of Reward: 182.075. Training.
+[INFO] AmyImitation. Step: 990000. Time Elapsed: 6591.601 s. Mean Reward: 438.611. Std of Reward: 186.015. Training.
+[INFO] Exported results/exp24/AmyImitation/AmyImitation-999970.onnx
+[INFO] Exported results/exp24/AmyImitation/AmyImitation-1000034.onnx
+[INFO] Copied results/exp24/AmyImitation/AmyImitation-1000034.onnx to results/exp24/AmyImitation.onnx.
